@@ -7,10 +7,6 @@ npm i
 npm run start
 ```
 
-```
-open http://localhost:3000
-```
-
 ## some CURL commands to execute...
 
 - getting server status =>
@@ -31,7 +27,7 @@ curl --location --request GET 'localhost:3000/api/v1/users/1' `
 --header 'Content-Type: application/json'
 ```
 
-- add new user to database =>
+- add a new user to database =>
 ```
 curl --location --request POST 'localhost:3000/api/v1/adduser' `
 --header 'Content-Type: application/json' `
