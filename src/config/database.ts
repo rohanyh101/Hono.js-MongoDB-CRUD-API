@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const MONGO_URI: string = "mongodb+srv://rohanyh:AAgpQjYT4v9deyy4@cluster0.jpdm5ax.mongodb.net/users?retryWrites=true&w=majority";
+const MONGO_URI: string = "Paste Your MongoDB URL";
 
 export const connectToDB = async (): Promise<void> => {
     try {
